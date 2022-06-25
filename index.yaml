@@ -3,55 +3,23 @@ entries:
   gitrepotest:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-25T12:29:17.165954714Z"
+    created: "2022-06-25T14:34:28.999172771Z"
     description: A helm chart repo using git repo
-    digest: 63921bcfa2a3b012f81fa55fa28b0ce8440714e25437174452d2f7a4e147d132
+    digest: 521d6b7d31b078c4d6013a88242e438d2693c9aeb719320527fa2cab782bde21
     name: gitrepotest
     type: application
     urls:
     - gitrepotest-0.1.0.tgz
     version: 0.1.0
-  helmpushdemo:
-  - apiVersion: v2
-    appVersion: 1.16.3
-    created: "2022-06-25T12:29:17.166331021Z"
-    description: Helmpush demo chart
-    digest: 22cea98bf84930a84f93ed94495113bc3d23bb88b0dd923165972c197c43af95
-    name: helmpushdemo
-    type: application
-    urls:
-    - helmpushdemo-0.1.3.tgz
-    version: 0.1.3
-  repotest:
-  - apiVersion: v2
-    appVersion: 1.16.1
-    created: "2022-06-25T12:29:17.167134564Z"
-    description: Repo Demo in Helm using Chartmuseum
-    digest: abf0e946e509d256f15abfa4ab9eda76904836a820174ca5f15f3191ec7739b6
-    name: repotest
-    type: application
-    urls:
-    - repotest-0.1.1.tgz
-    version: 0.1.1
+  helm_demo:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-25T12:29:17.166708618Z"
-    description: Repo Demo in Helm using Chartmuseum
-    digest: 68b69b462a2af5b2ef08f4c42d60bfc219b39f4a4ac620d722fd9e3bb5f5b19c
-    name: repotest
+    created: "2022-06-25T14:34:28.999483694Z"
+    description: A Helm chart for Kubernetes
+    digest: fdb275aaf5e940529dc654e472be1a07073abccf243706cc889fba82ab7a4354
+    name: helm_demo
     type: application
     urls:
-    - repotest-0.1.0.tgz
-    version: 0.1.0
-  repotest02:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-06-25T12:29:17.167510211Z"
-    description: new repo chart 02
-    digest: 4784c5410e34c51e6916b946617c55064d8f20d4c8c1f6d00ed3df0ba2128bac
-    name: repotest02
-    type: application
-    urls:
-    - repotest02-0.1.0.tgz
-    version: 0.1.0
-generated: "2022-06-25T12:29:17.165424258Z"
+    - helm_demo-0.1.4.tgz
+    version: 0.1.4
+generated: "2022-06-25T14:34:28.998800244Z"
